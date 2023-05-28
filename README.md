@@ -47,6 +47,8 @@ Ejecuta el código del consumidor consumidor2.py en la máquina EC2 para recibir
 Se proporcionan pruebas unitarias en los archivos test_consumers.py y test_producer.py dentro de la carpeta punto3/. Estas pruebas se centran en verificar la funcionalidad del análisis de acciones implementado. Para ejecutar las pruebas, asegúrate de tener las dependencias necesarias instaladas y ejecuta el archivo de pruebas.
 
 ## Recursos adicionales
-[Apache Spark MLlib - Pipeline](https://spark.apache.org/docs/latest/ml-pipeline.html)
-[AWS Kinesis Documentation](https://aws.amazon.com/kinesis/)
-[AWS SDK for Python (Boto3) Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+* [Apache Spark MLlib - Pipeline](https://spark.apache.org/docs/latest/ml-pipeline.html)
+
+* [AWS Kinesis Documentation](https://aws.amazon.com/kinesis/)
+
+* [AWS SDK for Python (Boto3) Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
