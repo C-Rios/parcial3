@@ -8,13 +8,13 @@ El repositorio está estructurado de la siguiente manera:
 - punto2/
   - periodicos_pipeline.ipynb       # Jupyter Notebook con el procesamiento de datos con pyspark
 - punto3/
-  - producer_1.py             # Código del primer productor para enviar datos a Kinesis
-  - producer_2.py             # Código del segundo productor para enviar datos a Kinesis
-  - consumer_upper.py         # Código del consumidor para la franja superior de Bollingener
-  - consumer_lower.py         # Código del consumidor para la franja inferior de Bollingener
-  - test_producer.py          # Pruebas unitarias para el análisis de acciones
-  - test_consumers.py         # Pruebas unitarias para el análisis de acciones
-- README.md                    # Documentación del proyecto
+  - producer_1.py                   # Código del primer productor para enviar datos a Kinesis
+  - producer_2.py                   # Código del segundo productor para enviar datos a Kinesis
+  - consumer_upper.py               # Código del consumidor para la franja superior de Bollingener
+  - consumer_lower.py               # Código del consumidor para la franja inferior de Bollingener
+  - test_producer.py                # Pruebas unitarias para el análisis de acciones
+  - test_consumers.py               # Pruebas unitarias para el análisis de acciones
+- README.md                         # Documentación del proyecto
 ```
 
 ## Procesamiento de datos de noticias
