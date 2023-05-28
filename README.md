@@ -22,9 +22,9 @@ El procesamiento de datos de noticias se realiza utilizando Pyspark ML y se impl
 
 Para ejecutar el procesamiento de datos de noticias, sigue los pasos a continuación:
 
-Configura un entorno de ejecución con Pyspark y ejecuta el Jupyter Notebook procesamiento.ipynb en la carpeta notebooks/.
+Configura un entorno de ejecución con Pyspark y ejecuta el Jupyter Notebook procesamiento.ipynb en la carpeta punto2/.
 
-El notebook guiará el proceso de carga de los datos de noticias desde el archivo data/noticias.csv, realizará el preprocesamiento de los textos, y aplicará la vectorización utilizando TF-IDF. También se incluirán otras transformaciones o pasos necesarios según los requisitos específicos.
+El notebook guiará el proceso de carga de los datos de noticias desde el archivo .csv que debe estar en un bucket guardado con la estructura definida en este [repositorio](https://github.com/C-Rios/ETL_Exam) , posteriormente realizará el preprocesamiento de los textos, y aplicará la vectorización utilizando TF-IDF. También se incluirán otras transformaciones o pasos necesarios según los requisitos específicos.
 
 Una vez que se haya ejecutado el notebook, los datos procesados estarán listos para su posterior análisis y modelado.
 
