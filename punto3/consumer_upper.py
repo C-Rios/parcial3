@@ -42,7 +42,7 @@ def consume_bollinger():
 
 def check_bollinger(price_window, price, stock):
     if len(price_window) == window_size:
-        # Calcular las franjas de Bollinger
+        # Calculo de la franja superior
         prices = np.array(price_window)
         sma = np.mean(prices)
         std = np.std(prices)
