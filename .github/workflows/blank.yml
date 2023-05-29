@@ -53,6 +53,6 @@ jobs:
       - name: Unit testing - Producers and consumers
         run: |
           source env/bin/activate
-          python3 test_consumers.py
-          python3 test_producer.py
+          python3 ./punto3/test_consumers.py
+          python3 ./punto3/test_producer.py
           deactivate
